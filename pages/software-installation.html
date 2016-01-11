@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Software Installation - GPH596S16 Computational Spatial Statistics</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="http://sjsrey.github.io/gph596s16/pages/software-installation.html">
+
+        <meta name="author" content="Sergio Rey" />
+        <meta name="description" content="Software Requirements For the course we will require the following packages be installed PySAL 1.11.0 SciPy Numpy iPython ipywidgets jupyter matplotlib pandas folium cartopy There are a number of ways to install PySAL and these dependencies. For the course, if you do not yet have the dependencies installed ..." />
+
+    <meta property="og:site_name" content="GPH596S16 Computational Spatial Statistics" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Software Installation"/>
+    <meta property="og:url" content="http://sjsrey.github.io/gph596s16/pages/software-installation.html"/>
+    <meta property="og:description" content="Software Requirements For the course we will require the following packages be installed PySAL 1.11.0 SciPy Numpy iPython ipywidgets jupyter matplotlib pandas folium cartopy There are a number of ways to install PySAL and these dependencies. For the course, if you do not yet have the dependencies installed ..." />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://sjsrey.github.io/gph596s16/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://sjsrey.github.io/gph596s16/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://sjsrey.github.io/gph596s16/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://sjsrey.github.io/gph596s16/theme/css/style.css" type="text/css"/>
+
+        <link href="http://sjsrey.github.io/gph596s16/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="GPH596S16 Computational Spatial Statistics ATOM Feed"/>
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://sjsrey.github.io/gph596s16/" class="navbar-brand">
+GPH596S16 Computational Spatial Statistics            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="http://sjsrey.github.io/gph596s16/pages/syllabus.html">
+                             Syllabus
+                          </a></li>
+                         <li><a href="http://sjsrey.github.io/gph596s16/pages/schedule.html">
+                             Schedule
+                          </a></li>
+                         <li><a href="http://sjsrey.github.io/gph596s16/">
+                             GPH596 S16
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+	    <!-- <li><a href="http://sjsrey.github.io/gph596s16/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">SArchives</span></a></li> -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content" class="body">
+        <h1 class="entry-title">Software Installation</h1>
+        
+        <div class="entry-content">
+            <h3>Software Requirements</h3>
+<p>For the course we will require the following packages be installed</p>
+<ul>
+<li>PySAL 1.11.0</li>
+<li>SciPy</li>
+<li>Numpy</li>
+<li>iPython </li>
+<li>ipywidgets</li>
+<li>jupyter</li>
+<li>matplotlib</li>
+<li>pandas</li>
+<li>folium</li>
+<li>cartopy</li>
+</ul>
+<p>There are a number of ways to install PySAL and these dependencies. For the course, if you do not yet have the dependencies installed we suggest using one of two scientific Python distributions (below). These have the advantages of including most of the dependencies for PySAL as well as PySAL itself. Moreover, both allow for updating PySAL to the most recent release  (1.10 released July 31, 2015) which is more current that what is listed in either distribution. Both of these distributions also allow for installation of additional dependencies.</p>
+<h4>PySAL via Anaconda Python Distribution</h4>
+<ol>
+<li>Install <a href="http://continuum.io/downloads.html">Anaconda Python Distribution</a></li>
+<li>Open a terminal (Mac or Linux) or Powershell (Windows)</li>
+<li><code>pip install -U pysal</code></li>
+<li><code>pip install -U folium</code></li>
+</ol>
+<h4>Creating a Custom Conda Environment</h4>
+<p>If you already have Anaconda installed and you did not want to modify your default environment, you can create a <em>custom conda environment</em> for this session using the following commands:</p>
+<ol>
+<li><code>conda create -n pysal110 scipy matplotlib jupyter ipython pandas ipywidgets</code></li>
+<li><code>source activate pysal110</code></li>
+<li><code>pip install -U pysal</code></li>
+<li><code>pip install -U folium</code></li>
+</ol>
+<p>When you are done working in this environment, you can get back to your default environment with:</p>
+<p><code>source deactivate</code></p>
+<h4>PySAL via Enthought Canopy</h4>
+<p>Note that the Academic version of Canopy comes with PySAL version 1.7. For this course we will be using PySAL 1.10. Upgrading in Canopy can be done as follows:</p>
+<ol>
+<li>Install <a href="https://www.enthought.com/store">Canopy</a></li>
+<li>Run Canopy</li>
+<li>From the menu select <code>Tools Canopy Terminal</code></li>
+<li><code>pip install -U pysal</code></li>
+<li><code>pip install -U folium</code></li>
+</ol>
+<h4>Testing Your Installation</h4>
+<p>Once you have installed all the dependencies, you can check to confirm everything is ready to go.</p>
+<p>For Anaconda:</p>
+<ol>
+<li>Open a terminal (Mac or Linux) or Powershell (Windows)</li>
+<li><code>ipython notebook</code></li>
+<li>In the browser click <code>New Notebook</code></li>
+<li>In the first cell in the notebook enter<br />
+<code>import pysal</code>
+   <code>pysal.version</code>
+   Then <code>&lt;Shift-Enter&gt;</code> (i.e., hit the Shift then the Enter Key)</li>
+<li>In the second cell in the notebook enter<br />
+<code>import folium</code>
+   Then <code>&lt;Shift-Enter&gt;</code></li>
+<li>In the third cell enter
+   <code>!which python</code>
+   Then <code>&lt;Shift-Enter&gt;</code></li>
+</ol>
+<p>Your screen should look something like:
+<img alt="Anaconda setup" src="http://sjsrey.github.io/gph596s16/figures/anaconda.png" /></p>
+<p>For Enthought Canopy:</p>
+<ol>
+<li>Run Canopy</li>
+<li>From the menu select <code>Tools Canopy Terminal</code></li>
+<li><code>ipython notebook</code></li>
+<li>In the browser click <code>New Notebook</code></li>
+<li>In the first cell in the notebook enter<br />
+<code>import pysal</code>
+   <code>pysal.version</code>
+   Then <code>&lt;Shift-Enter&gt;</code> (i.e., hit the Shift then the Enter Key)</li>
+<li>In the second cell in the notebook enter<br />
+<code>import folium</code>
+   Then <code>&lt;Shift-Enter&gt;</code></li>
+<li>In the third cell enter
+   <code>!which python</code>
+   Then <code>&lt;Shift-Enter&gt;</code></li>
+</ol>
+<p>Your screen should look something like:
+<img alt="Enthought setup" src="http://sjsrey.github.io/gph596s16/figures/enthought.png" /></p>
+<h4>Issues</h4>
+<p>If you run into any problems, double check that you have installed both the upgraded version of PySAL and folium (see above). If problems persist, please contact me <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#114;&#101;&#121;&#64;&#97;&#115;&#117;&#46;&#101;&#100;&#117;">&#115;&#114;&#101;&#121;&#64;&#97;&#115;&#117;&#46;&#101;&#100;&#117;</a>.</p>
+        </div>
+    </section>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy;  Sergio Rey
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>              <p><small>  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://sjsrey.github.io/gph596s16/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://sjsrey.github.io/gph596s16/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://sjsrey.github.io/gph596s16/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

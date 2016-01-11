@@ -12,7 +12,7 @@ Title: Schedule
   analysis." In Little, T.D. (ed.) The Oxford Handbook of Quantitative
 Methods: Vol 2. Statistical Analysis, pg 154-174.  ](https://books.google.com/books?id=bCFwAgAAQBAJ&pg=PA173&lpg=PA173&dq=spatial+analysis+anselin+murray+rey&source=bl&ots=rgM2ELtAIM&sig=XyIBLTxF9J0JwiJvqOT31zzA0aM&hl=en&sa=X&ved=0ahUKEwjf2YiYxaLKAhVM2WMKHeecDzkQ6AEINzAD#v=onepage&q=spatial%20analysis%20anselin%20murray%20rey&f=false)
 * Supplementary Reading: [Shekar et al. (2011) Pattern identification in spatial information: a survey of methods](http://www-users.cs.umn.edu/~shekhar/talk/2011/sdm_wiley2011.pdf)
-* [Rey, S.J. and L. Anselin (2010) "PySAL: A Python Library of Spatial
+* Supplementary Reading: [Rey, S.J. and L. Anselin (2010) "PySAL: A Python Library of Spatial
   Analytical Methods." In M.M Fischer and A. Getis (eds.) Handbook of
 Applied Spatial Analysis: Software Tools, Methods and Applications, pg
 175-193.](https://books.google.com/books?id=c0EP_6eYsjAC&pg=PA174&lpg=PA174&dq=rey+and+anselin+pysal&source=bl&ots=JBFavk3I3T&sig=3n0QmNiXjqStJD0cfHLwwaqdCTM&hl=en&sa=X&ved=0ahUKEwjTzIflx6LKAhUB9mMKHayJD_QQ6AEIHTAA#v=onepage&q=rey%20and%20anselin%20pysal&f=false) 

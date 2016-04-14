@@ -135,7 +135,7 @@ Title: Schedule
 	  uncertainty in the American Community Survey through data-driven
 	regionalization." PLOS One, DOI:
 	10.1371/journal.pone.0115626](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115626).
-	* Supplementary Reading: [Duque, J.C., L. Anselin and S.J. Rey (2012) "The Max-P-Regions Problem." Journal of Regional Science, 52(3): 397-419.](https://pdfs.semanticscholar.org/82cf/136eee7393a057d76ecaf03a0b0df37c8bbd.pdf)
+	* Supplementary Reading: [Duque, J.C., L. Anselin and S.J. Rey (2012) "The Max-P-Regions Problem." Journal of Regional Science, 52(3): 397-419.]({filename}/pdfs/Duque2012.pdf)
 
 #### Week 14 (April 25, 2016)
 
